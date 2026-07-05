@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princes Padmaraje Girls High School</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #6a1b9a;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .nav-links li {
+            margin-left: 15px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(106, 27, 154, 0.7), rgba(106, 27, 154, 0.7)), url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        /* Container & Grid layout */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #6a1b9a;
+            border-bottom: 2px solid #6a1b9a;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Flexbox and Grid items */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #f3e5f5;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 5px solid #6a1b9a;
+        }
+
+        /* Pamphlet Placeholder */
+        .pamphlet {
+            border: 2px dashed #6a1b9a;
+            padding: 40px;
+            text-align: center;
+            background-color: #fffde7;
+            border-radius: 8px;
+        }
+
+        /* Reviews */
+        .review-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .stars {
+            color: #ffb300;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PPGHS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#school-bus">School Bus</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#pamphlet">Pamphlet</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <header id="home" class="hero">
+        <h1>Princes Padmaraje Girls High School</h1>
+        <p>Empowering young women through quality education, character building, and academic excellence.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Section & Details -->
+        <section id="about">
+            <h2>About Our School & Details</h2>
+            <div class="grid-2">
+                <div>
+                    <p>Founded with a vision to nurture young minds, Princes Padmaraje Girls High School stands as a beacon of learning and empowerment. We provide a safe, competitive, and supportive environment designed explicitly for girls to flourish academically and socially.</p>
+                    <br>
+                    <p><strong>Establishment:</strong> Registered Institution providing state-board aligned standard curricula with modern modern pedagogical approaches.</p>
+                </div>
+                <div class="card">
+                    <h3>Quick Specifications</h3>
+                    <ul>
+                        <li><strong>Type:</strong> Girls Only High School</li>
+                        <li><strong>Medium:</strong> English & Regional Languages</li>
+                        <li><strong>Facilities:</strong> Science Labs, Smart Classrooms, Library, Playground</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Classes -->
+        <section id="classes">
+            <h2>Our Classes & Curriculum</h2>
+            <p>We provide comprehensive educational programs split across various age-appropriate levels:</p>
+            <div class="grid-2" style="margin-top: 20px;">
+                <div class="card">
+                    <h3>Primary Section</h3>
+                    <p>Grades 1 to 5. Focusing on fundamental skills, creativity, and structural learning habits.</p>
+                </div>
+                <div class="card">
+                    <h3>Secondary Section</h3>
+                    <p>Grades 6 to 10. Focused preparation for board examinations alongside robust extracurricular exposure.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Section -->
+        <section id="admission">
+            <h2>Admission Process</h2>
+            <p>Admissions for the upcoming academic session are currently open. Parents can secure enrollment by following these simple steps:</p>
+            <ol style="margin-left: 20px; margin-top: 10px;">
+                <li>Pick up the Application Form from the administration desk.</li>
+                <li>Submit required documentation (Birth Certificate, Previous Report Cards, Transfer Certificate).</li>
+                <li>Attend the interaction/interview round.</li>
+            </ol>
+        </section>
+
+        <!-- Teachers Section -->
+        <section id="teachers">
+            <h2>Our Faculty & Teachers</h2>
+            <p>Our school boasts a team of highly qualified, compassionate, and experienced educators dedicated to tracking and enhancing the performance of every student.</p>
+            <div class="grid-2" style="margin-top: 20px;">
+                <div class="card">
+                    <h4>Mrs. S. Patil</h4>
+                    <p><small>Principal & Administration Head</small></p>
+                </div>
+                <div class="card">
+                    <h4>Ms. A. Sharma</h4>
+                    <p><small>Senior Mathematics Faculty</small></p>
+                </div>
+                <div class="card">
+                    <h4>Mrs. R. Joshi</h4>
+                    <p><small>Science & Laboratory Instructor</small></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- School Bus Section -->
+        <section id="school-bus">
+            <h2>School Bus Transport Facility</h2>
+            <p>We operate a secure fleet of school buses covering all major routes across the city to ensure hassle-free transit for our students.</p>
+            <ul>
+                <li>GPS Tracking enabled vehicles.</li>
+                <li>Trained female attendants present on every route.</li>
+                <li>Strict adherence to safety guidelines and speed limits.</li>
+            </ul>
+        </section>
+
+        <!-- Rules Section -->
+        <section id="rules">
+            <h2>School Code of Conduct & Rules</h2>
+            <p>To maintain decorum and a healthy learning environment, students are expected to adhere to the following regulations:</p>
+            <ul>
+                <li><strong>Attendance:</strong> Minimum 75% attendance is mandatory to appear for term examinations.</li>
+                <li><strong>Uniform:</strong> Students must arrive in neat, prescribed school uniform daily.</li>
+                <li><strong>Discipline:</strong> Mobile phones and other electronic gadgets are strictly prohibited on campus premises.</li>
+            </ul>
+        </section>
+
+        <!-- School Pamphlet Section -->
+        <section id="pamphlet" class="pamphlet">
+            <h2>School Prospectus / Pamphlet</h2>
+            <p>Click below to download or view the official informational packet, fee structures, and event calendars.</p>
+            <button style="margin-top: 15px; padding: 10px 20px; background-color: #6a1b9a; color: white; border: none; border-radius: 4px; cursor: pointer;">Download Pamphlet PDF</button>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Parent & Student Reviews</h2>
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"Excellent environment for girls. The teachers are incredibly helpful, and the discipline standards are phenomenal."</p>
+                <small>— Rajesh K., Parent</small>
+            </div>
+            <div class="review-card">
+                <span class="stars">★★★★☆</span>
+                <p>"Great infrastructure, well-equipped labs, and a reliable bus service. Highly recommended."</p>
+                <small>— Sunita M., Parent</small>
+            </div>
+        </section>
+
+        <!-- Contact & Address Section -->
+        <section id="contact">
+            <h2>Contact Us & Address</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>School Address</h3>
+                    <p>Princes Padmaraje Girls High School,</p>
+                    <p>Main Campus Road, Education Hub District,</p>
+                    <p>Maharashtra, India.</p>
+                </div>
+                <div>
+                    <h3>Get In Touch</h3>
+                    <p><strong>Email:</strong> info@padmarajegirlshigh.edu</p>
+                    <p><strong>Phone:</strong> +91 0231-XXXXXXX</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Desk -->
+        <section id="help">
+            <h2>Help & Support Desk</h2>
+            <p>Have questions regarding admissions, fees, or technical support? Drop us your query below:</p>
+            <form style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px; max-width: 500px;">
+                <input type="text" placeholder="Your Name" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                <input type="email" placeholder="Your Email" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                <textarea placeholder="How can we help you?" rows="4" style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                <button type="button" style="padding: 10px; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer;">Submit Request</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Princes Padmaraje Girls High School. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
