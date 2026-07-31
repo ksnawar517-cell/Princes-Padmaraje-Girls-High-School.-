@@ -1,1 +1,1 @@
-# Princes-Padmaraje-Girls-High-School.-
+# Princess-Padmaraje-Girls-High-School.-
